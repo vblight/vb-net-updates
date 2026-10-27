@@ -1,0 +1,13 @@
+{
+  "product": "VB-NET",
+  "version": "0.2.0",
+  "channel": "stable",
+  "platform": "win32",
+  "minimumVersion": "0.2.0",
+  "releaseNotes": "Initial public update feed.",
+  "publishedAt": "2026-10-27",
+  "download": {
+    "installer": "https://github.com/vblight/vb-net-updates/releases/latest",
+    "portable": "https://github.com/vblight/vb-net-updates/releases/latest"
+  }
+}
