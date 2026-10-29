@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "release": "REMOTE-018",
+  "description": "Harmless Vileware remote delivery proof",
+  "files": [
+    {
+      "path": "games/vileware-proof/remote-018.txt",
+      "url": "https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/018/remote-018.txt",
+      "sha256": "3f9d5fa8575f070e08f72c58b734dfa5318f72fb85069a0d66b3a3357202d563",
+      "bytes": 95
+    }
+  ]
+}
