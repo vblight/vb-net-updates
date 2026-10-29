@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "release": "REMOTE-019",
+  "description": "Harmless visible remote Vile Kart content proof",
+  "files": [
+    {
+      "path": "kart-remote-019.js",
+      "url": "https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/019/kart-remote-019.js",
+      "sha256": "TO_BE_VERIFIED_BY_019_CLIENT_METADATA",
+      "bytes": 0
+    }
+  ]
+}
