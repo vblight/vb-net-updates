@@ -2,7 +2,7 @@
 if(window.VK_EVENT_MODE!=='BIG_TOP')return;
 const EVENT_NAMES=['MADAME MANGLE','GRIN TWINS','PROFESSOR SPLINTER','MISS FORTUNE','HUMAN CANNONBALL','RINGMASTER RICTUS','BLOATO'];
 const EVENT_FILES=['MADAME_MANGLE_REAR.png','GRIN_TWINS_REAR.png','PROFESSOR_SPLINTER_REAR.png','MISS_FORTUNE_REAR.png','HUMAN_CANNONBALL_REAR.png','RINGMASTER_RICTUS_REAR.png','BLOATO_REAR.png'];
-const EVENT_IMG={};EVENT_NAMES.forEach((n,i)=>{const im=new Image();im.src='assets/events/big_top/'+EVENT_FILES[i];EVENT_IMG[n]=im});
+const EVENT_IMG={};EVENT_NAMES.forEach((n,i)=>{const im=new Image();im.src=EVENT_FILES[i];EVENT_IMG[n]=im});
 const baseReset=reset;baseReset();
 reset=function(){baseReset();cars=[];EVENT_NAMES.forEach((name,j)=>cars.push({name,color:'#b63b55',z:((j+1)*650+900)%trackLen,x:(((j+1)%3)-1)*.48,speed:5450+(j+1)*235,lap:1}));window.__VK_EVENT_LAP=1};reset();
 const baseDrawKart=drawKart;drawKart=function(x,y,scale,color,name,playerKart=false){const im=EVENT_IMG[name];if(!im)return baseDrawKart(x,y,scale,color,name,playerKart);if(!im.complete||!im.naturalWidth)return;const ss=Math.max(.055,Math.min(.38,scale*.34)),dh=278*ss,dw=dh*(im.naturalWidth/im.naturalHeight);ctx.drawImage(im,x-dw/2,y-dh+8*ss,dw,dh)};
