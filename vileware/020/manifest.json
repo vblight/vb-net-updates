@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "release": "REMOTE-020",
+  "description": "Vileware 0020 MASTER BASTARD SELECTOR 015 KA FINAL POLISH package",
+  "files": [
+    {
+      "path": "MASTER_BASTARD_SELECTOR_015_KA_FINAL_POLISH.zip",
+      "url": "https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/MASTER_BASTARD_SELECTOR_015_KA_FINAL_POLISH.zip",
+      "sha256": "f0c59d473afd9b2c58c092bfbf5092e7578eb3547a6fd6c050944248f9efa17b",
+      "bytes": 3502732
+    }
+  ]
+}
