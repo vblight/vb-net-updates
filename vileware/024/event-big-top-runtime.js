@@ -1,0 +1,11 @@
+(()=>{'use strict';
+if(window.VK_EVENT_MODE!=='BIG_TOP')return;
+const EVENT_NAMES=['MADAME MANGLE','GRIN TWINS','PROFESSOR SPLINTER','MISS FORTUNE','HUMAN CANNONBALL','RINGMASTER RICTUS','BLOATO'];
+const EVENT_FILES=['MADAME_MANGLE_REAR.png','GRIN_TWINS_REAR.png','PROFESSOR_SPLINTER_REAR.png','MISS_FORTUNE_REAR.png','HUMAN_CANNONBALL_REAR.png','RINGMASTER_RICTUS_REAR.png','BLOATO_REAR.png'];
+const EVENT_IMG={};EVENT_NAMES.forEach((n,i)=>{const im=new Image();im.src='assets/events/big_top/'+EVENT_FILES[i];EVENT_IMG[n]=im});
+const baseReset=reset;baseReset();
+reset=function(){baseReset();cars=[];EVENT_NAMES.forEach((name,j)=>cars.push({name,color:'#b63b55',z:((j+1)*650+900)%trackLen,x:(((j+1)%3)-1)*.48,speed:5450+(j+1)*235,lap:1}));window.__VK_EVENT_LAP=1};reset();
+const baseDrawKart=drawKart;drawKart=function(x,y,scale,color,name,playerKart=false){const im=EVENT_IMG[name];if(!im)return baseDrawKart(x,y,scale,color,name,playerKart);if(!im.complete||!im.naturalWidth)return;const ss=Math.max(.055,Math.min(.38,scale*.34)),dh=278*ss,dw=dh*(im.naturalWidth/im.naturalHeight);ctx.drawImage(im,x-dw/2,y-dh+8*ss,dw,dh)};
+const baseUpdate=update;update=function(dt){if(gameMode!=='race'||finished)return baseUpdate(dt);let evLap=window.__VK_EVENT_LAP||1,oldZ=player.z;player.lap=evLap>=10?3:1;baseUpdate(dt);if(player.z<oldZ&&player.speed>0)evLap++;window.__VK_EVENT_LAP=evLap;player.lap=Math.min(evLap,10)};
+const baseHud=hud;hud=function(){baseHud();if(gameMode!=='race')return;ctx.save();ctx.textAlign='center';ctx.font='bold 16px Georgia';ctx.lineWidth=4;ctx.strokeStyle='#090305';ctx.strokeText('EVENT // THE BIG TOP // '+Math.min(window.__VK_EVENT_LAP||1,10)+'/10 LAPS',W/2,28);ctx.fillStyle='#ffe08a';ctx.fillText('EVENT // THE BIG TOP // '+Math.min(window.__VK_EVENT_LAP||1,10)+'/10 LAPS',W/2,28);ctx.restore()};
+})();
