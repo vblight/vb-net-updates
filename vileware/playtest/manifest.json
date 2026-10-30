@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "channel": "playtest",
-  "revision": 22,
-  "release": "REMOTE-021-HOTFIX",
-  "description": "Vileware 021 selector input hotfix",
+  "revision": 23,
+  "release": "REMOTE-021-PAUSE-HOTFIX",
+  "description": "Vileware 021 P-key pause hotfix",
   "files": [
     {"path":"index.html","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/021/index.html","sha256":"3de7b6263aced22d9d0747b8cb445e0b650c44ef1463a8ddb70d5601650f298c","bytes":13657},
-    {"path":"shiniest-roster-ui.js","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/021/shiniest-roster-ui.js","sha256":"9a950e6de01acb071ee7ab764494e49a764ad20a186968bbcc2b845e45037115","bytes":6262},
+    {"path":"shiniest-roster-ui.js","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/021/shiniest-roster-ui.js","sha256":"7909eb765fa4159a037f1163e6458f5213a2e5a2e87c0d7091fb76a9e8dba8d4","bytes":6730},
     {"path":"assets/character-select-frame.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/app/payload/character-select-frame.png","sha256":"ea30ab6e2b0c18e95deb2e6a3724b7fe0dba9a8cd0b16946452d0d7ed3da784c","bytes":1937872},
     {"path":"assets/KNUCKLE_BROTHERS_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/KNUCKLE_BROTHERS_REAR.png","sha256":"05a657ae4ef1b45dbcc10528415f01ae6574f683125ccb62520ad7c29c2ee5e3","bytes":168399},
     {"path":"assets/KNUCKLE_BROTHERS_SIDE.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/KNUCKLE_BROTHERS_SIDE.png","sha256":"b5d16dd14a7b142fee3734f75d3cdddf396fbaeeb0e866550fe024d414351326","bytes":213843},
