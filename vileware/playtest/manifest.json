@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "channel": "playtest",
-  "revision": 28,
-  "release": "REMOTE-028-BIG-TOP-12",
-  "description": "Vileware 028 valid strict manifest; Big Top event runtime",
+  "revision": 29,
+  "release": "REMOTE-029-BIG-TOP-12",
+  "description": "Vileware 029 strict manifest republish; clears stale invalid manifest cache",
   "files": [
     {"path":"index.html","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/021/index.html","sha256":"3de7b6263aced22d9d0747b8cb445e0b650c44ef1463a8ddb70d5601650f298c","bytes":13657},
     {"path":"shiniest-roster-ui.js","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/021/shiniest-roster-ui.js","sha256":"7909eb765fa4159a037f1163e6458f5213a2e5a2e87c0d7091fb76a9e8dba8d4","bytes":6730},
