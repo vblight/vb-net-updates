@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "release": "REMOTE-021",
+  "description": "Vileware 0021 fixed Kart roster deployment",
+  "files": [
+    {"path":"index.html","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/021/index.html","sha256":"3de7b6263aced22d9d0747b8cb445e0b650c44ef1463a8ddb70d5601650f298c","bytes":13657},
+    {"path":"shiniest-roster-ui.js","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/app/payload/shiniest-roster-ui.js","sha256":"3e7273a2b7848c0a716f2cf6ba9664c4684f1701c22949da8b62184bc0799c1c","bytes":6431},
+    {"path":"assets/character-select-frame.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/app/payload/character-select-frame.png","sha256":"ea30ab6e2b0c18e95deb2e6a3724b7fe0dba9a8cd0b16946452d0d7ed3da784c","bytes":1937872},
+    {"path":"assets/KNUCKLE_BROTHERS_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/KNUCKLE_BROTHERS_REAR.png","sha256":"05a657ae4ef1b45dbcc10528415f01ae6574f683125ccb62520ad7c29c2ee5e3","bytes":168399},
+    {"path":"assets/KNUCKLE_BROTHERS_SIDE.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/KNUCKLE_BROTHERS_SIDE.png","sha256":"b5d16dd14a7b142fee3734f75d3cdddf396fbaeeb0e866550fe024d414351326","bytes":213843},
+    {"path":"assets/LADY_PRUDENCE_SIDEWINDER_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/LADY_PRUDENCE_SIDEWINDER_REAR.png","sha256":"05b2a96b775240777a5d6dc549fa3a3818f17a2564dcb1c00be74a4bf3517973","bytes":103710},
+    {"path":"assets/LADY_PRUDENCE_SIDEWINDER_SIDE.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/LADY_PRUDENCE_SIDEWINDER_SIDE.png","sha256":"5acb3d70f9858428f3ce7e66cc2f80e47153440cb82b67e80c7f465108bb493a","bytes":197924},
+    {"path":"assets/RATBAG_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/RATBAG_REAR.png","sha256":"e701b6e41141ea34416106545cc9c6138fbc42d059d5ea63a168438f0d89d03e","bytes":123318},
+    {"path":"assets/RATBAG_SIDE.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/RATBAG_SIDE.png","sha256":"bb1c24db4f0ee348e534b3cf21a50b8c658e31db034659ed7836ae1e37a0724f","bytes":187225},
+    {"path":"assets/SIR_PORTLY_HATT_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/SIR_PORTLY_HATT_REAR.png","sha256":"1bc11f533870aedfd48cb10271c907c5e9952b02a0e022e55716e347beaf9d42","bytes":104776},
+    {"path":"assets/SIR_PORTLY_HATT_SIDE.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/SIR_PORTLY_HATT_SIDE.png","sha256":"461c61605029f87e3badbaf76a0843ae2a3297a4d0aa87e7c511c2771b59f1f7","bytes":156992},
+    {"path":"assets/THE_LICH_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/THE_LICH_REAR.png","sha256":"ea786790ad8ad443b0ba0b229e631135c2b21164e671dd50b233858cec7c6932","bytes":118678},
+    {"path":"assets/THE_LICH_SIDE.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/THE_LICH_SIDE.png","sha256":"2237559f47fcf17b58861fa0cfa2d8376e786a50a9c11e61c4281752236e8186","bytes":185032}
+  ]
+}
