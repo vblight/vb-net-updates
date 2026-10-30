@@ -1,5 +1,0 @@
-VB-NET Vileware revision 0020 staging folder.
-
-Upload the contents of MASTER_BASTARD_SELECTOR_015_KA_FINAL_POLISH.zip here, preserving the assets/ subfolder.
-
-Do not edit vileware/playtest/manifest.json manually; it will be flipped only after payload verification.
