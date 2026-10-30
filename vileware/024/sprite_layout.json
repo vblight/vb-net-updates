@@ -1,0 +1,98 @@
+{
+  "DOLLY_DISASTER_REAR.png": {
+    "dimensions": [
+      320,
+      384
+    ],
+    "anchor": [
+      160,
+      376
+    ],
+    "racer": "Dolly Disaster",
+    "view": "REAR"
+  },
+  "DOLLY_DISASTER_SIDE.png": {
+    "dimensions": [
+      512,
+      384
+    ],
+    "anchor": [
+      256,
+      376
+    ],
+    "racer": "Dolly Disaster",
+    "view": "SIDE"
+  },
+  "LADY_BRISTLE_REAR.png": {
+    "dimensions": [
+      320,
+      384
+    ],
+    "anchor": [
+      160,
+      376
+    ],
+    "racer": "Lady Bristle",
+    "view": "REAR"
+  },
+  "LADY_BRISTLE_SIDE.png": {
+    "dimensions": [
+      512,
+      384
+    ],
+    "anchor": [
+      256,
+      376
+    ],
+    "racer": "Lady Bristle",
+    "view": "SIDE"
+  },
+  "STRINGBEAN_REAR.png": {
+    "dimensions": [
+      320,
+      384
+    ],
+    "anchor": [
+      160,
+      376
+    ],
+    "racer": "Stringbean",
+    "view": "REAR"
+  },
+  "STRINGBEAN_SIDE.png": {
+    "dimensions": [
+      512,
+      384
+    ],
+    "anchor": [
+      256,
+      376
+    ],
+    "racer": "Stringbean",
+    "view": "SIDE"
+  },
+  "TUMBLE_TERRY_REAR.png": {
+    "dimensions": [
+      320,
+      384
+    ],
+    "anchor": [
+      160,
+      376
+    ],
+    "racer": "Tumble Terry",
+    "view": "REAR"
+  },
+  "TUMBLE_TERRY_SIDE.png": {
+    "dimensions": [
+      512,
+      384
+    ],
+    "anchor": [
+      256,
+      376
+    ],
+    "racer": "Tumble Terry",
+    "view": "SIDE"
+  }
+}
