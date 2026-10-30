@@ -1,0 +1,1 @@
+const{contextBridge,ipcRenderer}=require('electron');contextBridge.exposeInMainWorld('masterBastardBridge',{ping:()=>ipcRenderer.invoke('mb:ping'),info:()=>ipcRenderer.invoke('mb:info'),scan:()=>ipcRenderer.invoke('mb:scan'),patch:()=>ipcRenderer.invoke('mb:patch'),launch:()=>ipcRenderer.invoke('mb:launch'),home:()=>ipcRenderer.invoke('mb:home')});

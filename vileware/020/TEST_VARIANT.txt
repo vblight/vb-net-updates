@@ -1,0 +1,18 @@
+015-KA-FINAL-POLISH
+Built directly on the user-approved KA nameplate/layout test.
+
+CHANGED ONLY:
+- PRUDENCE SIDEWINDER name starts ~6% smaller for right-edge breathing room.
+- ENTER — SELECT moved 12 scaled pixels upward.
+
+FROZEN:
+- KA keyboard behavior
+- mouse arrows
+- roster/unlock plumbing
+- all sprite paths/files
+- ornate frame
+- sprite size/baseline established in prior layout test
+- LADY subtitle/tagline/stats
+- KNUCKLE BROTHERS name treatment
+
+No GitHub writes.
