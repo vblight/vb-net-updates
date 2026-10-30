@@ -1,7 +1,7 @@
 (()=>{'use strict';
 if(window.VK_EVENT_MODE!=='BIG_TOP')return;
 const EVENT_NAMES=['MADAME MANGLE','GRIN TWINS','PROFESSOR SPLINTER','MISS FORTUNE','HUMAN CANNONBALL','RINGMASTER RICTUS','BLOATO','DOLLY DISASTER','LADY BRISTLE','STRINGBEAN','TUMBLE TERRY'];
-const EVENT_FILES=['MADAME_MANGLE_REAR.png','GRIN_TWINS_REAR.png','PROFESSOR_SPLINTER_REAR.png','MISS_FORTUNE_REAR.png','HUMAN_CANNONBALL_REAR.png','RINGMASTER_RICTUS_REAR.png','BLOATO_REAR.png','DOLLY_DISASTER_REAR.png','LADY_BRISTLE_REAR.png','STRINGBEAN_REAR.png','TUMBLE_TERRY_REAR.png'];
+const EVENT_FILES=['MADAME_MANGLE_REAR.png','GRIN_TWINS_REAR.png','PROFESSOR_SPLINTER_REAR.png','MISS_FORTUNE_REAR.png','HUMAN_CANNONBALL_REAR.png','RINGMASTER_RICTUS_REAR.png','BLOATO_REAR.png','https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/024/DOLLY_DISASTER_REAR.png','https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/024/LADY_BRISTLE_REAR.png','https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/024/STRINGBEAN_REAR.png','https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/024/TUMBLE_TERRY_REAR.png'];
 const EVENT_IMG={};EVENT_NAMES.forEach((n,i)=>{const im=new Image();im.src=EVENT_FILES[i];EVENT_IMG[n]=im});
 const baseReset=reset;
 reset=function(){baseReset();cars=[];EVENT_NAMES.forEach((name,j)=>cars.push({name,color:'#b63b55',z:((j+1)*470+700)%trackLen,x:(((j+1)%3)-1)*.48,speed:6750+(j+1)*120,lap:1,__eventLap:1}));window.__VK_EVENT_LAP=1};reset();
