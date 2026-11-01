@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "channel": "vileware",
+  "revision": 1,
+  "release": "VILEWARE-SYSTEM-001",
+  "description": "Initial verified whole-system Vileware mirror bootstrap with Dad's Diner.",
+  "files": [
+    {
+      "path": "index.html",
+      "url": "https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/system/bootstrap/index.html",
+      "sha256": "513295de48d618ceeea6fc2d0050f329234e9e8c090e03831e7c1faff840107e",
+      "bytes": 1025
+    },
+    {
+      "path": "games/dads-diner/index.html",
+      "url": "https://raw.githubusercontent.com/vblight/vile-vb-net/c9c68d5bf9848d1d9a4800797ca978de19880daf/games/dads-diner/index.html",
+      "sha256": "5fabb87e70d5a2089aafd6bf7b4fc40a3b9fb268e807097ce0f77723b341dae7",
+      "bytes": 26213387
+    }
+  ]
+}
