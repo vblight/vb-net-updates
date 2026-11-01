@@ -1,15 +1,33 @@
 {
   "schema": 1,
   "channel": "vileware",
-  "revision": 2,
-  "release": "VILEWARE-SYSTEM-002-404-FIX",
-  "description": "Remove inaccessible private-repository payload from the Vileware system update path.",
+  "revision": 3,
+  "release": "VILEWARE-SYSTEM-003-BIG-TOP-RESTORE",
+  "description": "Restore Wankstein's Big Top Challenge Mode and circus grid to VileKart through the Vileware system updater.",
   "files": [
-    {
-      "path": "index.html",
-      "url": "https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/system/bootstrap/index.html",
-      "sha256": "513295de48d618ceeea6fc2d0050f329234e9e8c090e03831e7c1faff840107e",
-      "bytes": 1025
-    }
+    {"path":"index.html","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/system/bootstrap/index.html","sha256":"513295de48d618ceeea6fc2d0050f329234e9e8c090e03831e7c1faff840107e","bytes":1025},
+    {"path":"games/vile-kart/index.html","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/021/index.html","sha256":"3de7b6263aced22d9d0747b8cb445e0b650c44ef1463a8ddb70d5601650f298c","bytes":13657},
+    {"path":"games/vile-kart/shiniest-roster-ui.js","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/021/shiniest-roster-ui.js","sha256":"7909eb765fa4159a037f1163e6458f5213a2e5a2e87c0d7091fb76a9e8dba8d4","bytes":6730},
+    {"path":"games/vile-kart/shinier-cup-ui.js","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/024/shinier-cup-ui.js","sha256":"9c4bdb7c74e272aac7deba3d7f46b26511aaaf00e8766e5ee57e18034e02d870","bytes":470},
+    {"path":"games/vile-kart/events-ui.js","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/024/events-ui.js","sha256":"e4997c522c26a6232252233400685839ca79c255b600f205fee00bff9d97e6c1","bytes":4442},
+    {"path":"games/vile-kart/event-big-top-runtime.js","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/024/event-big-top-runtime.js","sha256":"fe6d692db933326dcde479e999b27d6c640f7ca6261704b907afdb1987df360a","bytes":2975},
+    {"path":"games/vile-kart/MADAME_MANGLE_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/024/MADAME_MANGLE_REAR.png","sha256":"df2c442152aa30bb7b695986de4ebb58964a1bae049ff88a7d759098c42d6d8a","bytes":131873},
+    {"path":"games/vile-kart/GRIN_TWINS_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/024/GRIN_TWINS_REAR.png","sha256":"60a8d75b0a2c63553e1bee1107952794ca651d0a117816795b3557c52a3bdd76","bytes":138942},
+    {"path":"games/vile-kart/PROFESSOR_SPLINTER_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/024/PROFESSOR_SPLINTER_REAR.png","sha256":"29609ba61dc23774d3f81c5416954677d6b15b3c78b56f39bbb81109c0c94198","bytes":112965},
+    {"path":"games/vile-kart/MISS_FORTUNE_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/024/MISS_FORTUNE_REAR.png","sha256":"da8023c1e9a40f36b068e6b4e250903a8c98cd1f11ba3b541fdadeab8925e8ad","bytes":138372},
+    {"path":"games/vile-kart/HUMAN_CANNONBALL_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/024/HUMAN_CANNONBALL_REAR.png","sha256":"056269732eb24f1097d959a0581767671ec72fcec1772dbb4f32aa2187417926","bytes":130821},
+    {"path":"games/vile-kart/RINGMASTER_RICTUS_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/024/RINGMASTER_RICTUS_REAR.png","sha256":"9c97cff6b476cba85c319d1b148bfcda1998a275ce88210996473af3ff79beb1","bytes":119046},
+    {"path":"games/vile-kart/BLOATO_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/024/BLOATO_REAR.png","sha256":"eb51cca8482aa02e969f80502a51561cd614e65ba779adbc05da4673558b4e58","bytes":161057},
+    {"path":"games/vile-kart/assets/character-select-frame.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/app/payload/character-select-frame.png","sha256":"ea30ab6e2b0c18e95deb2e6a3724b7fe0dba9a8cd0b16946452d0d7ed3da784c","bytes":1937872},
+    {"path":"games/vile-kart/assets/KNUCKLE_BROTHERS_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/KNUCKLE_BROTHERS_REAR.png","sha256":"05a657ae4ef1b45dbcc10528415f01ae6574f683125ccb62520ad7c29c2ee5e3","bytes":168399},
+    {"path":"games/vile-kart/assets/KNUCKLE_BROTHERS_SIDE.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/KNUCKLE_BROTHERS_SIDE.png","sha256":"b5d16dd14a7b142fee3734f75d3cdddf396fbaeeb0e866550fe024d414351326","bytes":213843},
+    {"path":"games/vile-kart/assets/LADY_PRUDENCE_SIDEWINDER_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/LADY_PRUDENCE_SIDEWINDER_REAR.png","sha256":"05b2a96b775240777a5d6dc549fa3a3818f17a2564dcb1c00be74a4bf3517973","bytes":103710},
+    {"path":"games/vile-kart/assets/LADY_PRUDENCE_SIDEWINDER_SIDE.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/LADY_PRUDENCE_SIDEWINDER_SIDE.png","sha256":"5acb3d70f9858428f3ce7e66cc2f80e47153440cb82b67e80c7f465108bb493a","bytes":197924},
+    {"path":"games/vile-kart/assets/RATBAG_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/RATBAG_REAR.png","sha256":"e701b6e41141ea34416106545cc9c6138fbc42d059d5ea63a168438f0d89d03e","bytes":123318},
+    {"path":"games/vile-kart/assets/RATBAG_SIDE.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/RATBAG_SIDE.png","sha256":"bb1c24db4f0ee348e534b3cf21a50b8c658e31db034659ed7836ae1e37a0724f","bytes":187225},
+    {"path":"games/vile-kart/assets/SIR_PORTLY_HATT_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/SIR_PORTLY_HATT_REAR.png","sha256":"1bc11f533870aedfd48cb10271c907c5e9952b02a0e022e55716e347beaf9d42","bytes":104776},
+    {"path":"games/vile-kart/assets/SIR_PORTLY_HATT_SIDE.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/SIR_PORTLY_HATT_SIDE.png","sha256":"461c61605029f87e3badbaf76a0843ae2a3297a4d0aa87e7c511c2771b59f1f7","bytes":156992},
+    {"path":"games/vile-kart/assets/THE_LICH_REAR.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/THE_LICH_REAR.png","sha256":"ea786790ad8ad443b0ba0b229e631135c2b21164e671dd50b233858cec7c6932","bytes":118678},
+    {"path":"games/vile-kart/assets/THE_LICH_SIDE.png","url":"https://raw.githubusercontent.com/vblight/vb-net-updates/main/vileware/020/games/vile-kart/assets/THE_LICH_SIDE.png","sha256":"2237559f47fcf17b58861fa0cfa2d8376e786a50a9c11e61c4281752236e8186","bytes":185032}
   ]
 }
